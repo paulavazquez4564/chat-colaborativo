@@ -1,30 +1,32 @@
+/* Estética Mad Peter-Max: páramo, óxido, fuego y asfalto. */
 * { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #0f172a; color: #f1f5f9; }
+body { margin: 0; font-family: 'Share Tech Mono', system-ui, monospace; background: #140b06; color: #ffe8c2; background-image: radial-gradient(ellipse at top, rgba(255,107,26,.25), transparent 55%), linear-gradient(#140b06, #1f0f08 60%, #0d0704); }
 .wrap { max-width: 720px; margin: 0 auto; padding: 20px 14px 40px; }
-header h1 { margin: 0 0 4px; font-size: 28px; }
-header p { margin: 0 0 18px; color: #94a3b8; }
-.card { background: #1e293b; border: 1px solid #334155; border-radius: 16px; padding: 18px; }
+header h1 { margin: 0 0 4px; font-size: 30px; line-height: 1.05; font-family: 'Black Ops One', Impact, sans-serif; color: #ff6b1a; text-shadow: 2px 2px 0 #000, 0 0 18px rgba(255,107,26,.6); letter-spacing: 1px; }
+.tagline { margin: 0 0 8px; color: #facc15; font-weight: bold; }
+header p { margin: 0 0 18px; color: #d6a77a; }
+.card { background: #241409; border: 2px solid #7c2d12; border-radius: 8px; padding: 18px; box-shadow: 0 0 0 2px #000, 0 0 24px rgba(255,107,26,.15); }
 .hidden { display: none; }
 label { display: block; font-weight: 600; }
-input { width: 100%; margin-top: 8px; padding: 12px; border-radius: 10px; border: 1px solid #475569; background: #0f172a; color: white; font-size: 16px; }
-button { margin-top: 12px; padding: 12px 20px; border: 0; border-radius: 10px; background: #22c55e; color: #052e16; font-weight: 700; font-size: 16px; cursor: pointer; }
+input { width: 100%; margin-top: 8px; padding: 12px; border-radius: 6px; border: 1px solid #7c2d12; background: #0d0704; color: #ffe8c2; font-size: 16px; }
+button { margin-top: 12px; padding: 12px 20px; border: 2px solid #000; border-radius: 6px; background: #ff6b1a; color: #1a0b00; font-weight: 700; font-size: 16px; cursor: pointer; text-transform: uppercase; }
 button:hover { filter: brightness(1.1); }
-.hint { color: #94a3b8; font-size: 14px; }
-.top { display: flex; justify-content: space-between; margin-bottom: 12px; color: #cbd5e1; }
+.hint { color: #d6a77a; font-size: 14px; }
+.top { display: flex; justify-content: space-between; margin-bottom: 12px; color: #ffe8c2; }
 #messages { height: 55vh; min-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; padding-right: 4px; }
-.msg { background: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 10px 12px; max-width: 88%; align-self: flex-start; }
-.msg.mine { align-self: flex-end; background: #14532d; border-color: #22c55e; }
-.msg b { display: block; font-size: 13px; color: #86efac; }
-.msg time { display: block; font-size: 11px; color: #94a3b8; margin-top: 4px; }
-#typing { min-height: 18px; color: #94a3b8; font-size: 13px; margin: 6px 0; }
+.msg { background: #0d0704; border: 1px solid #7c2d12; border-radius: 8px; padding: 10px 12px; max-width: 88%; align-self: flex-start; }
+.msg.mine { align-self: flex-end; background: #3a1c08; border-color: #ff6b1a; }
+.msg b { display: block; font-size: 13px; color: #facc15; }
+.msg time { display: block; font-size: 11px; color: #d6a77a; margin-top: 4px; }
+#typing { min-height: 18px; color: #d6a77a; font-size: 13px; margin: 6px 0; }
 #form { display: flex; gap: 8px; }
 #form input { margin-top: 0; }
 #form button { margin-top: 0; white-space: nowrap; }
-.msg.ping { border-color: #facc15; }
+.msg.ping { border-color: #facc15; box-shadow: 0 0 12px rgba(250,204,21,.4); }
 .file-img { max-width: 100%; border-radius: 10px; margin-top: 8px; display: block; }
-.file-link { display: block; margin-top: 8px; color: #93c5fd; word-break: break-all; }
+.file-link { display: block; margin-top: 8px; color: #ffb27a; word-break: break-all; }
 .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
 .file-label { font-size: 14px; cursor: pointer; }
 .file-label input { display: block; margin-top: 6px; font-size: 13px; }
-#fileName { font-size: 13px; color: #cbd5e1; word-break: break-all; }
+#fileName { font-size: 13px; color: #ffe8c2; word-break: break-all; }
 #pingBtn { background: #facc15; color: #422006; margin-top: 0; }

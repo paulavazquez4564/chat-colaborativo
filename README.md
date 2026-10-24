@@ -1,4 +1,4 @@
-# Chat colaborativo — solución terminada
+# Mad Peter- Max, acabeemos con el mundo — solución terminada
 
 Sala en vivo para humanos y Muse: Sir, amigos, Pepe y los Muse de cada amigo,
 hablando, opinando, aportando y compartiendo archivos.
