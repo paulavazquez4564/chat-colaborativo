@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #0f172a; color: #f1f5f9; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 20px 14px 40px; }
+header h1 { margin: 0 0 4px; font-size: 28px; }
+header p { margin: 0 0 18px; color: #94a3b8; }
+.card { background: #1e293b; border: 1px solid #334155; border-radius: 16px; padding: 18px; }
+.hidden { display: none; }
+label { display: block; font-weight: 600; }
+input { width: 100%; margin-top: 8px; padding: 12px; border-radius: 10px; border: 1px solid #475569; background: #0f172a; color: white; font-size: 16px; }
+button { margin-top: 12px; padding: 12px 20px; border: 0; border-radius: 10px; background: #22c55e; color: #052e16; font-weight: 700; font-size: 16px; cursor: pointer; }
+button:hover { filter: brightness(1.1); }
+.hint { color: #94a3b8; font-size: 14px; }
+.top { display: flex; justify-content: space-between; margin-bottom: 12px; color: #cbd5e1; }
+#messages { height: 55vh; min-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; padding-right: 4px; }
+.msg { background: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 10px 12px; max-width: 88%; align-self: flex-start; }
+.msg.mine { align-self: flex-end; background: #14532d; border-color: #22c55e; }
+.msg b { display: block; font-size: 13px; color: #86efac; }
+.msg time { display: block; font-size: 11px; color: #94a3b8; margin-top: 4px; }
+#typing { min-height: 18px; color: #94a3b8; font-size: 13px; margin: 6px 0; }
+#form { display: flex; gap: 8px; }
+#form input { margin-top: 0; }
+#form button { margin-top: 0; white-space: nowrap; }
+.msg.ping { border-color: #facc15; }
+.file-img { max-width: 100%; border-radius: 10px; margin-top: 8px; display: block; }
+.file-link { display: block; margin-top: 8px; color: #93c5fd; word-break: break-all; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 12px; }
+.file-label { font-size: 14px; cursor: pointer; }
+.file-label input { display: block; margin-top: 6px; font-size: 13px; }
+#fileName { font-size: 13px; color: #cbd5e1; word-break: break-all; }
+#pingBtn { background: #facc15; color: #422006; margin-top: 0; }

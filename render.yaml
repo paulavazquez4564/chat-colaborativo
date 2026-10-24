@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: chat-web-pepe
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CHAT_TOKEN
+        generateValue: true
